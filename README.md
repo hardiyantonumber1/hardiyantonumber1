@@ -1,80 +1,6 @@
 <div align="center">
-
-<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0d47a1,1565c0,1976d2,42a5f5&height=280&section=header&text=Hardiyanto%20Jaya%20Pranata&fontSize=42&fontColor=ffffff&fontAlignY=45&desc=Senior%20Full-Stack%20Engineer%20%C2%B7%20DevOps%20Architect&descAlignY=65&descSize=18&descColor=90caf9&animation=fadeIn" width="100%"/>
 </div>
-
-  <!-- Background -->
-  <g clip-path="url(#banner-clip)">
-    <rect width="900" height="280" fill="url(#bg)"/>
-    <rect width="900" height="280" fill="url(#glow-left)"/>
-    <rect width="900" height="280" fill="url(#glow-right)"/>
-
-    <!-- Geometric shapes top-left (dark blue angled panels) -->
-    <polygon points="0,0 320,0 180,280 0,280" fill="#0d1f3c" opacity="0.7"/>
-    <polygon points="0,0 220,0 100,280 0,280" fill="#0a1a35" opacity="0.8"/>
-
-    <!-- Geometric shapes right (bright blue accent panels) -->
-    <polygon points="680,0 900,0 900,280 820,280" fill="url(#shape-grad)" opacity="0.75"/>
-    <polygon points="730,0 900,0 900,180" fill="#1565c0" opacity="0.5"/>
-    <polygon points="900,100 900,280 820,280" fill="#42a5f5" opacity="0.25"/>
-
-    <!-- Thin diagonal accent lines -->
-    <line x1="160" y1="0" x2="0" y2="220" stroke="#1976d2" stroke-width="1.2" opacity="0.4"/>
-    <line x1="260" y1="0" x2="80" y2="280" stroke="#1565c0" stroke-width="0.7" opacity="0.3"/>
-    <line x1="750" y1="0" x2="900" y2="200" stroke="#42a5f5" stroke-width="1" opacity="0.35"/>
-
-    <!-- Dot grid (subtle texture) -->
-    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#1976d2" opacity="0.18"/>
-    </pattern>
-    <rect width="900" height="280" fill="url(#dots)"/>
-
-    <!-- Main heading -->
-    <text
-      font-family="'Segoe UI', 'Arial Black', Arial, sans-serif"
-      font-size="54"
-      font-weight="800"
-      letter-spacing="1"
-      x="450" y="138"
-      text-anchor="middle"
-      fill="url(#text-shine)"
-      filter="url(#text-glow)"
-    >Hardiyanto Jaya Pranata</text>
-
-    <!-- Subtitle -->
-    <text
-      font-family="'Segoe UI', Arial, sans-serif"
-      font-size="19"
-      font-weight="400"
-      letter-spacing="3"
-      x="450" y="185"
-      text-anchor="middle"
-      fill="#90caf9"
-      opacity="0.92"
-    >Senior Full-Stack Engineer  ·  DevOps Architect</text>
-
-    <!-- Bottom accent line -->
-    <rect x="300" y="210" width="300" height="2" rx="1" fill="url(#shape-grad)" opacity="0.7"/>
-
-    <!-- Small tagline -->
-    <text
-      font-family="'Segoe UI', Arial, sans-serif"
-      font-size="13"
-      font-weight="300"
-      letter-spacing="2"
-      x="450" y="240"
-      text-anchor="middle"
-      fill="#64b5f6"
-      opacity="0.7"
-    >Building systems that scale, survive, and sleep well in production.</text>
-
-  </g>
-</svg>
-
-</div>
-
----
 
 <div align="center">
 
@@ -255,5 +181,7 @@ fn hardiyanto_principles() -> Vec<&'static str> {
 ---
 
 _"The best infrastructure is the one nobody talks about — because it just works."_
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d47a1,1565c0,1976d2,42a5f5&height=100&section=footer" width="100%"/>
 
 </div>
