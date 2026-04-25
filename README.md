@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d47a1,1565c0,1976d2,42a5f5&height=280&section=header&text=Hardiyanto%20Jaya%20Pranata&fontSize=42&fontColor=ffffff&fontAlignY=45&desc=Senior%20Full-Stack%20Engineer%20%C2%B7%20DevOps%20Architect&descAlignY=65&descSize=18&descColor=90caf9&animation=fadeIn" width="100%"/>
+  <img src="./assets/banner.png" width="100%" />
 </div>
 
 <div align="center">
