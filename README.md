@@ -1,45 +1,8 @@
 <div align="center">
 
-<svg width="100%" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <!-- Dark background gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#050d1a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0a1628;stop-opacity:1" />
-    </linearGradient>
-    <!-- Blue glow left -->
-    <radialGradient id="glow-left" cx="20%" cy="70%" r="45%">
-      <stop offset="0%" style="stop-color:#1565c0;stop-opacity:0.7" />
-      <stop offset="100%" style="stop-color:#050d1a;stop-opacity:0" />
-    </radialGradient>
-    <!-- Blue glow right -->
-    <radialGradient id="glow-right" cx="85%" cy="40%" r="40%">
-      <stop offset="0%" style="stop-color:#0d47a1;stop-opacity:0.55" />
-      <stop offset="100%" style="stop-color:#050d1a;stop-opacity:0" />
-    </radialGradient>
-    <!-- Accent gradient for shapes -->
-    <linearGradient id="shape-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1976d2;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#42a5f5;stop-opacity:0.4" />
-    </linearGradient>
-    <!-- Text shine -->
-    <linearGradient id="text-shine" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
-      <stop offset="60%" style="stop-color:#e3f2fd;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#90caf9;stop-opacity:0.9" />
-    </linearGradient>
-    <filter id="blur-glow">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="text-glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="banner-clip">
-      <rect width="900" height="280" rx="14"/>
-    </clipPath>
-  </defs>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d47a1,1565c0,1976d2,42a5f5&height=280&section=header&text=Hardiyanto%20Jaya%20Pranata&fontSize=42&fontColor=ffffff&fontAlignY=45&desc=Senior%20Full-Stack%20Engineer%20%C2%B7%20DevOps%20Architect&descAlignY=65&descSize=18&descColor=90caf9&animation=fadeIn" width="100%"/>
+</div>
 
   <!-- Background -->
   <g clip-path="url(#banner-clip)">
